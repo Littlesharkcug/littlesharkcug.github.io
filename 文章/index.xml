@@ -1,33 +1,14 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Shark的主页</title>
-    <link>https://littlesharkcug.github.io/</link>
-    <description>Recent content on Shark的主页</description>
+    <title>文章s on Shark的主页</title>
+    <link>https://littlesharkcug.github.io/%E6%96%87%E7%AB%A0/</link>
+    <description>Recent content in 文章s on Shark的主页</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Fri, 05 Jun 2020 20:36:50 +0800</lastBuildDate>
     
-	<atom:link href="https://littlesharkcug.github.io/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="https://littlesharkcug.github.io/%E6%96%87%E7%AB%A0/index.xml" rel="self" type="application/rss+xml" />
     
-    
-    <item>
-      <title>First</title>
-      <link>https://littlesharkcug.github.io/%E5%88%86%E7%B1%BB/first/</link>
-      <pubDate>Fri, 05 Jun 2020 20:36:50 +0800</pubDate>
-      
-      <guid>https://littlesharkcug.github.io/%E5%88%86%E7%B1%BB/first/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>get in touch</title>
-      <link>https://littlesharkcug.github.io/contact/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>https://littlesharkcug.github.io/contact/</guid>
-      <description>  Send  </description>
-    </item>
     
     <item>
       <title>博客简介</title>

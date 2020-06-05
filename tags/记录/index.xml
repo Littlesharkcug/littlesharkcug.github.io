@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>记录 on Shark的主页</title>
+    <link>https://littlesharkcug.github.io/tags/%E8%AE%B0%E5%BD%95/</link>
+    <description>Recent content in 记录 on Shark的主页</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    
+	<atom:link href="https://littlesharkcug.github.io/tags/%E8%AE%B0%E5%BD%95/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>博客简介</title>
+      <link>https://littlesharkcug.github.io/%E6%96%87%E7%AB%A0/%E5%8D%9A%E5%AE%A2%E7%AE%80%E4%BB%8B/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://littlesharkcug.github.io/%E6%96%87%E7%AB%A0/%E5%8D%9A%E5%AE%A2%E7%AE%80%E4%BB%8B/</guid>
+      <description>11111111112222222222222222222 #33333333333333 ##222222 33333333</description>
+    </item>
+    
+  </channel>
+</rss>

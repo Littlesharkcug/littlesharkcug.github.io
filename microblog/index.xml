@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>MicroBlogs on Littleshark</title>
+    <link>https://littlesharkcug.github.io/microblog/</link>
+    <description>Recent content in MicroBlogs on Littleshark</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Fri, 05 Jun 2020 00:00:00 +0000</lastBuildDate>
+    
+	<atom:link href="https://littlesharkcug.github.io/microblog/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>学习经历</title>
+      <link>https://littlesharkcug.github.io/microblog/first/</link>
+      <pubDate>Fri, 05 Jun 2020 00:00:00 +0000</pubDate>
+      
+      <guid>https://littlesharkcug.github.io/microblog/first/</guid>
+      <description>2016-2020 中国地质大学自动化学院</description>
+    </item>
+    
+  </channel>
+</rss>

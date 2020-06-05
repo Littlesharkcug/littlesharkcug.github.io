@@ -1,28 +1,34 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>文章s on Shark的主页</title>
+    <title>文章s on Littleshark</title>
     <link>https://littlesharkcug.github.io/%E6%96%87%E7%AB%A0/</link>
-    <description>Recent content in 文章s on Shark的主页</description>
+    <description>Recent content in 文章s on Littleshark</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
+    <lastBuildDate>Fri, 05 Jun 2020 00:00:00 +0000</lastBuildDate>
     
 	<atom:link href="https://littlesharkcug.github.io/%E6%96%87%E7%AB%A0/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
-      <title>博客简介</title>
+      <title>hugo搭建博客</title>
       <link>https://littlesharkcug.github.io/%E6%96%87%E7%AB%A0/hugo%E7%9A%84%E6%90%AD%E5%BB%BA/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <pubDate>Fri, 05 Jun 2020 00:00:00 +0000</pubDate>
       
       <guid>https://littlesharkcug.github.io/%E6%96%87%E7%AB%A0/hugo%E7%9A%84%E6%90%AD%E5%BB%BA/</guid>
-      <description></description>
+      <description>hugo搭建博客系统  安装 安装流程参照
+Hugo中文文档 B站Up主队Hugo安装配置
+主题应用  这里使用的主题为npq主题 为了能够配制出和主题类似的界面，可以参照 themes/npq-hugo 中的themes/npq-hugo/exampleSite范例。对于范例主要是参考他的目录构成以及它在config.toml文件中的配置模式。  Hugo的分类器   对于config.toml中的各个参数的解释可以参考官方英文文档1的介绍。
+  对于分类器的介绍可以参考官方英文文档2，其中主要就是需要配置下面这组参数（如果用的是toml格式）：
+[taxonomies] category = &amp;quot;categories&amp;quot; series = &amp;quot;series&amp;quot; tag = &amp;quot;tags&amp;quot; 不需要自己生成目录，系统会自动帮我们进行分类生成./categories ./series ./tags
+  </description>
     </item>
     
     <item>
       <title>博客简介</title>
       <link>https://littlesharkcug.github.io/%E6%96%87%E7%AB%A0/%E5%8D%9A%E5%AE%A2%E7%AE%80%E4%BB%8B/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <pubDate>Fri, 05 Jun 2020 00:00:00 +0000</pubDate>
       
       <guid>https://littlesharkcug.github.io/%E6%96%87%E7%AB%A0/%E5%8D%9A%E5%AE%A2%E7%AE%80%E4%BB%8B/</guid>
       <description>11111111112222222222222222222 #33333333333333 ##222222 33333333</description>

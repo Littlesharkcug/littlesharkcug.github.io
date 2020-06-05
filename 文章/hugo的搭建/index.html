@@ -8,7 +8,7 @@
     <link rel="stylesheet" href=https://littlesharkcug.github.io/css/syntax.css>
     <link rel="stylesheet" href=https://littlesharkcug.github.io/css/style.css>
     <script src="https://kit.fontawesome.com/1b7478c139.js" crossorigin="anonymous"></script>
-    <title>Shark的主页</title>
+    <title>Littleshark</title>
   </head><body><aside id="sidenav">
     <header>
     
@@ -18,7 +18,7 @@
 
     <a id="branding" href=https://littlesharkcug.github.io/>
         
-            Shark的主页
+            Littleshark
         
     </a>
     </header>
@@ -42,7 +42,7 @@
             </a>
         
             		
-            <a href="/%E5%88%86%E7%B1%BB"
+            <a href="/tags"
                 
             >
                 <i class="fas fa-tags fa-ms"></i>
@@ -81,11 +81,42 @@
             <a href="javascript:void(0)" id="closebtn" onclick="navToggle()"><i class="fas fa-bars fa-lg"></i></a>
             <div class="content">
     
-    <h1 id="title">博客简介</h1>
+    <h1 id="title">hugo搭建博客</h1>
     
       
-    <nav id="TableOfContents"></nav>
-    
+    <nav id="TableOfContents">
+  <ul>
+    <li><a href="#安装">安装</a></li>
+    <li><a href="#主题应用">主题应用</a></li>
+    <li><a href="#hugo的分类器">Hugo的分类器</a></li>
+  </ul>
+</nav>
+    <h1 id="hugo搭建博客系统">hugo搭建博客系统</h1>
+<hr>
+<h2 id="安装">安装</h2>
+<p>安装流程参照</p>
+<p><a href="https://www.gohugo.org/">Hugo中文文档</a>
+<a href="https://www.bilibili.com/video/BV1q4411i7gL">B站Up主队Hugo安装配置</a></p>
+<h2 id="主题应用">主题应用</h2>
+<ol>
+<li>这里使用的主题为npq主题</li>
+<li>为了能够配制出和主题类似的界面，可以参照 themes/npq-hugo 中的themes/npq-hugo/exampleSite范例。对于范例主要是参考他的目录构成以及它在config.toml文件中的配置模式。</li>
+</ol>
+<h2 id="hugo的分类器">Hugo的分类器</h2>
+<ol>
+<li>
+<p>对于config.toml中的各个参数的解释可以参考<a href="https://gohugo.io/getting-started/configuration/#all-configuration-settings">官方英文文档1</a>的介绍。</p>
+</li>
+<li>
+<p>对于分类器的介绍可以参考<a href="https://gohugo.io/content-management/taxonomies/">官方英文文档2</a>，其中主要就是需要配置下面这组参数（如果用的是toml格式）：</p>
+<pre><code>[taxonomies]
+category = &quot;categories&quot;
+series = &quot;series&quot;
+tag = &quot;tags&quot;
+</code></pre><p>不需要自己生成目录，系统会自动帮我们进行分类生成./categories  ./series  ./tags</p>
+</li>
+</ol>
+
     
     <div class="nav-next-prev">
         <div class="nav-prev">

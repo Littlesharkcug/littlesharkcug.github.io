@@ -1,31 +1,40 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>My New Hugo Site</title>
-    <link>littlesharkcug.github.io/</link>
-    <description>Recent content on My New Hugo Site</description>
+    <title>Shark的主页</title>
+    <link>https://example.org/</link>
+    <description>Recent content on Shark的主页</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <lastBuildDate>Wed, 03 Jun 2020 16:27:21 +0800</lastBuildDate>
     
-	<atom:link href="littlesharkcug.github.io/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="https://example.org/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
+      <title>About</title>
+      <link>https://example.org/about/</link>
+      <pubDate>Wed, 03 Jun 2020 19:55:31 +0800</pubDate>
+      
+      <guid>https://example.org/about/</guid>
+      <description></description>
+    </item>
+    
+    <item>
       <title>jianing ding</title>
-      <link>littlesharkcug.github.io/post/blog/</link>
+      <link>https://example.org/post/blog/</link>
       <pubDate>Wed, 03 Jun 2020 16:27:21 +0800</pubDate>
       
-      <guid>littlesharkcug.github.io/post/blog/</guid>
+      <guid>https://example.org/post/blog/</guid>
       <description>11111111112222222222222222222 #33333333333333 ##222222</description>
     </item>
     
     <item>
       <title>get in touch</title>
-      <link>littlesharkcug.github.io/contact/</link>
+      <link>https://example.org/contact/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>littlesharkcug.github.io/contact/</guid>
+      <guid>https://example.org/contact/</guid>
       <description></description>
     </item>
     

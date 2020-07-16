@@ -6,10 +6,43 @@
     <description>Recent content on Littleshark</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Fri, 05 Jun 2020 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Fri, 17 Jul 2020 00:24:03 +0800</lastBuildDate>
     
 	<atom:link href="https://littlesharkcug.github.io/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>指令系统</title>
+      <link>https://littlesharkcug.github.io/%E6%96%87%E7%AB%A0/amba%E5%AD%A6%E4%B9%A0/</link>
+      <pubDate>Fri, 17 Jul 2020 00:24:03 +0800</pubDate>
+      
+      <guid>https://littlesharkcug.github.io/%E6%96%87%E7%AB%A0/amba%E5%AD%A6%E4%B9%A0/</guid>
+      <description>AMBA协议 项目名称：AMBA协议学习**
+1 概述 1.1发展历史 AMBA协议就是ARM公司制定的规则。 1.1.1 常见的协议  APB协议 AHB协议 AXI协议 ATB协议：传输Debug协议 LTI协议：clock ACE协议：硬件一致性（很复杂） CHI协议：一直在更新 图片中的chi.b chi.c (大型系统服务器之类的 小SOC中不用) DTI协议： LTI协议：这两个运用于系统MMU中的，用于传输地址转换的信息  1.2 AMBA的特性与好处  AMBA做的是生态 AMBA是开放标准，大厂商可以更改  1.2.1 层级的划分      Remarks     Protocol  The Protocol layer is the top-most layer in the bus protocol architecture. The function of the Protocol layer is to:   • Generate and process requests and responses at the protocol nodes.</description>
+    </item>
+    
+    <item>
+      <title>指令系统</title>
+      <link>https://littlesharkcug.github.io/%E6%96%87%E7%AB%A0/%E6%8C%87%E4%BB%A4%E7%B3%BB%E7%BB%9F/</link>
+      <pubDate>Sat, 06 Jun 2020 20:39:49 +0800</pubDate>
+      
+      <guid>https://littlesharkcug.github.io/%E6%96%87%E7%AB%A0/%E6%8C%87%E4%BB%A4%E7%B3%BB%E7%BB%9F/</guid>
+      <description>指令系统基本概念 基本概念 指令格式：长度（定长、变长）、编码（哈夫曼编码）
+操作数存储位置：寄存器、主存
+操作数存储类型：整、浮点
+操作数存储长度：字节、字、双字
+操作数存储个数：1,2
+寻址方式：寄存器、立即数、间接寻址
+指令系统的发展与改进 考虑到CPU时间，要减少指令条数，减少指令CPI
+复杂指令系统：CISC （X86） 缺点：
+ 设计时间长 需要大量硬件支持 大量复杂指令使用频率很低 操作复杂，CPI大  精简指令系统：RISC（MIPS） 指令条数少；指令格式简单；减少寻址方式；只有load和store采访问存储器，其他指令都通过寄存器访问；
+开源硬件 RISC-V
+MIPS指令 MIPS寄存器  32个通用处理器 R0,R1&amp;hellip;&amp;hellip;..R31 32个64位浮点数寄存器F0&amp;hellip;&amp;hellip;F31可以存放单精度和双精度  MIPS数据表示 字节、半子、双字
+MIPS寻址方式   立即数寻址与偏移量寻址（下面两种方式也是这两种的变形）
+  寄存器间接寻址（就是把零当做偏移量寻址）
+  16位绝对寻址（通过把R0作为基址寄存器完成的）
+  </description>
+    </item>
     
     <item>
       <title>hugo的搭建</title>

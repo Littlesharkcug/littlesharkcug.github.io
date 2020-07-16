@@ -1,14 +1,14 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>日常 on Littleshark</title>
-    <link>https://littlesharkcug.github.io/series/%E6%97%A5%E5%B8%B8/</link>
-    <description>Recent content in 日常 on Littleshark</description>
+    <title>计算机体系结构 on Littleshark</title>
+    <link>https://littlesharkcug.github.io/tags/%E8%AE%A1%E7%AE%97%E6%9C%BA%E4%BD%93%E7%B3%BB%E7%BB%93%E6%9E%84/</link>
+    <description>Recent content in 计算机体系结构 on Littleshark</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <lastBuildDate>Sat, 06 Jun 2020 20:39:49 +0800</lastBuildDate>
     
-	<atom:link href="https://littlesharkcug.github.io/series/%E6%97%A5%E5%B8%B8/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="https://littlesharkcug.github.io/tags/%E8%AE%A1%E7%AE%97%E6%9C%BA%E4%BD%93%E7%B3%BB%E7%BB%93%E6%9E%84/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
@@ -32,15 +32,6 @@ MIPS寻址方式   立即数寻址与偏移量寻址（下面两种方式也是�
   寄存器间接寻址（就是把零当做偏移量寻址）
   16位绝对寻址（通过把R0作为基址寄存器完成的）
   </description>
-    </item>
-    
-    <item>
-      <title>博客简介</title>
-      <link>https://littlesharkcug.github.io/%E6%96%87%E7%AB%A0/%E5%8D%9A%E5%AE%A2%E7%AE%80%E4%BB%8B/</link>
-      <pubDate>Fri, 05 Jun 2020 00:00:00 +0000</pubDate>
-      
-      <guid>https://littlesharkcug.github.io/%E6%96%87%E7%AB%A0/%E5%8D%9A%E5%AE%A2%E7%AE%80%E4%BB%8B/</guid>
-      <description>11111111112222222222222222222 #33333333333333 ##222222 33333333</description>
     </item>
     
   </channel>

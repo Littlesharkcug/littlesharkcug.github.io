@@ -1,15 +1,25 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>日常 on Littleshark</title>
-    <link>https://littlesharkcug.github.io/series/%E6%97%A5%E5%B8%B8/</link>
-    <description>Recent content in 日常 on Littleshark</description>
+    <title>硬件 on Littleshark</title>
+    <link>https://littlesharkcug.github.io/tags/%E7%A1%AC%E4%BB%B6/</link>
+    <description>Recent content in 硬件 on Littleshark</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Sat, 06 Jun 2020 20:39:49 +0800</lastBuildDate>
+    <lastBuildDate>Fri, 17 Jul 2020 00:24:03 +0800</lastBuildDate>
     
-	<atom:link href="https://littlesharkcug.github.io/series/%E6%97%A5%E5%B8%B8/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="https://littlesharkcug.github.io/tags/%E7%A1%AC%E4%BB%B6/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>指令系统</title>
+      <link>https://littlesharkcug.github.io/%E6%96%87%E7%AB%A0/amba%E5%AD%A6%E4%B9%A0/</link>
+      <pubDate>Fri, 17 Jul 2020 00:24:03 +0800</pubDate>
+      
+      <guid>https://littlesharkcug.github.io/%E6%96%87%E7%AB%A0/amba%E5%AD%A6%E4%B9%A0/</guid>
+      <description>AMBA协议 项目名称：AMBA协议学习**
+1 概述 1.1发展历史 AMBA协议就是ARM公司制定的规则。 1.1.1 常见的协议  APB协议 AHB协议 AXI协议 ATB协议：传输Debug协议 LTI协议：clock ACE协议：硬件一致性（很复杂） CHI协议：一直在更新 图片中的chi.b chi.c (大型系统服务器之类的 小SOC中不用) DTI协议： LTI协议：这两个运用于系统MMU中的，用于传输地址转换的信息  1.2 AMBA的特性与好处  AMBA做的是生态 AMBA是开放标准，大厂商可以更改  1.2.1 层级的划分      Remarks     Protocol  The Protocol layer is the top-most layer in the bus protocol architecture. The function of the Protocol layer is to:   • Generate and process requests and responses at the protocol nodes.</description>
+    </item>
     
     <item>
       <title>指令系统</title>
@@ -32,15 +42,6 @@ MIPS寻址方式   立即数寻址与偏移量寻址（下面两种方式也是�
   寄存器间接寻址（就是把零当做偏移量寻址）
   16位绝对寻址（通过把R0作为基址寄存器完成的）
   </description>
-    </item>
-    
-    <item>
-      <title>博客简介</title>
-      <link>https://littlesharkcug.github.io/%E6%96%87%E7%AB%A0/%E5%8D%9A%E5%AE%A2%E7%AE%80%E4%BB%8B/</link>
-      <pubDate>Fri, 05 Jun 2020 00:00:00 +0000</pubDate>
-      
-      <guid>https://littlesharkcug.github.io/%E6%96%87%E7%AB%A0/%E5%8D%9A%E5%AE%A2%E7%AE%80%E4%BB%8B/</guid>
-      <description>11111111112222222222222222222 #33333333333333 ##222222 33333333</description>
     </item>
     
   </channel>

@@ -81,53 +81,79 @@
             <a href="javascript:void(0)" id="closebtn" onclick="navToggle()"><i class="fas fa-bars fa-lg"></i></a>
             <div class="content">
     
-    <h1 id="title">hugo的搭建</h1>
+    <h1 id="title">指令系统</h1>
     
       
     <nav id="TableOfContents">
   <ul>
-    <li><a href="#安装">安装</a></li>
-    <li><a href="#主题应用">主题应用</a></li>
-    <li><a href="#hugo的分类器">Hugo的分类器</a></li>
+    <li><a href="#基本概念">基本概念</a></li>
+    <li><a href="#指令系统的发展与改进">指令系统的发展与改进</a>
+      <ul>
+        <li><a href="#复杂指令系统cisc--x86">复杂指令系统：CISC  （X86）</a></li>
+        <li><a href="#精简指令系统riscmips">精简指令系统：RISC（MIPS）</a></li>
+      </ul>
+    </li>
+  </ul>
+
+  <ul>
+    <li><a href="#mips寄存器">MIPS寄存器</a></li>
+    <li><a href="#mips数据表示">MIPS数据表示</a></li>
+    <li><a href="#mips寻址方式">MIPS寻址方式</a></li>
   </ul>
 </nav>
-    <h1 id="hugo搭建博客系统">hugo搭建博客系统</h1>
-<hr>
-<h2 id="安装">安装</h2>
-<p>安装流程参照</p>
-<p><a href="https://www.gohugo.org/">Hugo中文文档</a>
-<a href="https://www.bilibili.com/video/BV1q4411i7gL">B站Up主队Hugo安装配置</a></p>
-<h2 id="主题应用">主题应用</h2>
+    <h1 id="指令系统基本概念">指令系统基本概念</h1>
+<h2 id="基本概念">基本概念</h2>
+<p>指令格式：长度（定长、变长）、编码（哈夫曼编码）</p>
+<p>操作数存储位置：寄存器、主存</p>
+<p>操作数存储类型：整、浮点</p>
+<p>操作数存储长度：字节、字、双字</p>
+<p>操作数存储个数：1,2</p>
+<p>寻址方式：寄存器、立即数、间接寻址</p>
+<h2 id="指令系统的发展与改进">指令系统的发展与改进</h2>
+<p>考虑到CPU时间，要减少指令条数，减少指令CPI</p>
+<h3 id="复杂指令系统cisc--x86">复杂指令系统：CISC  （X86）</h3>
+<p>缺点：</p>
 <ol>
-<li>这里使用的主题为npq主题</li>
-<li>为了能够配制出和主题类似的界面，可以参照 themes/npq-hugo 中的themes/npq-hugo/exampleSite范例。对于范例主要是参考他的目录构成以及它在config.toml文件中的配置模式。</li>
+<li>设计时间长</li>
+<li>需要大量硬件支持</li>
+<li>大量复杂指令使用频率很低</li>
+<li>操作复杂，CPI大</li>
 </ol>
-<h2 id="hugo的分类器">Hugo的分类器</h2>
-<ol>
+<h3 id="精简指令系统riscmips">精简指令系统：RISC（MIPS）</h3>
+<p>指令条数少；指令格式简单；减少寻址方式；只有load和store采访问存储器，其他指令都通过寄存器访问；</p>
+<p>开源硬件 <strong>RISC-V</strong></p>
+<h1 id="mips指令">MIPS指令</h1>
+<h2 id="mips寄存器">MIPS寄存器</h2>
+<ul>
+<li>32个通用处理器 R0,R1&hellip;&hellip;..R31</li>
+<li>32个64位浮点数寄存器F0&hellip;&hellip;F31可以存放单精度和双精度</li>
+</ul>
+<h2 id="mips数据表示">MIPS数据表示</h2>
+<p>字节、半子、双字</p>
+<h2 id="mips寻址方式">MIPS寻址方式</h2>
+<ul>
 <li>
-<p>对于config.toml中的各个参数的解释可以参考<a href="https://gohugo.io/getting-started/configuration/#all-configuration-settings">官方英文文档1</a>的介绍。</p>
+<p><strong>立即数寻址与偏移量寻址</strong>（下面两种方式也是这两种的变形）</p>
 </li>
 <li>
-<p>对于分类器的介绍可以参考<a href="https://gohugo.io/content-management/taxonomies/">官方英文文档2</a>，其中主要就是需要配置下面这组参数（如果用的是toml格式）：</p>
-<pre><code>[taxonomies]
-category = &quot;categories&quot;
-series = &quot;series&quot;
-tag = &quot;tags&quot;
-</code></pre><p>不需要自己生成目录，系统会自动帮我们进行分类生成./categories  ./series  ./tags</p>
+<p>寄存器间接寻址（就是把零当做偏移量寻址）</p>
 </li>
-</ol>
+<li>
+<p>16位绝对寻址（通过把R0作为基址寄存器完成的）</p>
+</li>
+</ul>
 
     
     <div class="nav-next-prev">
         <div class="nav-prev">
             
-                <a href="https://littlesharkcug.github.io/%E6%96%87%E7%AB%A0/%E5%8D%9A%E5%AE%A2%E7%AE%80%E4%BB%8B/"><i class="fas fa-chevron-left"></i></a>
+                <a href="https://littlesharkcug.github.io/%E6%96%87%E7%AB%A0/hugo%E7%9A%84%E6%90%AD%E5%BB%BA/"><i class="fas fa-chevron-left"></i></a>
             
         </div>
         <a class="nav-top" href="#">top</i></a>
         <div class="nav-next">
             
-                <a href="https://littlesharkcug.github.io/%E6%96%87%E7%AB%A0/%E6%8C%87%E4%BB%A4%E7%B3%BB%E7%BB%9F/"><i class="fas fa-chevron-right"></i></a>
+                <a href="https://littlesharkcug.github.io/%E6%96%87%E7%AB%A0/amba%E5%AD%A6%E4%B9%A0/"><i class="fas fa-chevron-right"></i></a>
             
         </div>
     </div>

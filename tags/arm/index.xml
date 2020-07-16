@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>ARM on Littleshark</title>
+    <link>https://littlesharkcug.github.io/tags/arm/</link>
+    <description>Recent content in ARM on Littleshark</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Fri, 17 Jul 2020 00:24:03 +0800</lastBuildDate>
+    
+	<atom:link href="https://littlesharkcug.github.io/tags/arm/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>指令系统</title>
+      <link>https://littlesharkcug.github.io/%E6%96%87%E7%AB%A0/amba%E5%AD%A6%E4%B9%A0/</link>
+      <pubDate>Fri, 17 Jul 2020 00:24:03 +0800</pubDate>
+      
+      <guid>https://littlesharkcug.github.io/%E6%96%87%E7%AB%A0/amba%E5%AD%A6%E4%B9%A0/</guid>
+      <description>AMBA协议 项目名称：AMBA协议学习**
+1 概述 1.1发展历史 AMBA协议就是ARM公司制定的规则。 1.1.1 常见的协议  APB协议 AHB协议 AXI协议 ATB协议：传输Debug协议 LTI协议：clock ACE协议：硬件一致性（很复杂） CHI协议：一直在更新 图片中的chi.b chi.c (大型系统服务器之类的 小SOC中不用) DTI协议： LTI协议：这两个运用于系统MMU中的，用于传输地址转换的信息  1.2 AMBA的特性与好处  AMBA做的是生态 AMBA是开放标准，大厂商可以更改  1.2.1 层级的划分      Remarks     Protocol  The Protocol layer is the top-most layer in the bus protocol architecture. The function of the Protocol layer is to:   • Generate and process requests and responses at the protocol nodes.</description>
+    </item>
+    
+  </channel>
+</rss>
